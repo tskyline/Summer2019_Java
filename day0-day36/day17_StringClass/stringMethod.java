@@ -30,6 +30,7 @@ public class stringMethod
 		str=str.replaceFirst("Java","Python");
 		System.out.println(str);
 		
+		System.out.println("TUNA");
 		
 	}
 }
