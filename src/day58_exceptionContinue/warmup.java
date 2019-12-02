@@ -30,7 +30,7 @@ public class warmup
 		{
 			try
 			{
-				Thread.sleep();
+				Thread.sleep((long)(seconds*1000));
 			} catch (InterruptedException e)
 			{
 				// TODO Auto-generated catch block
