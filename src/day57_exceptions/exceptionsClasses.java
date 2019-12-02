@@ -8,7 +8,7 @@ public class exceptionsClasses
 
 	/*
     try{
-            exception statements/code
+            exception_handling statements/code
         } catch(ExceptionClass name){
             statements
         }
@@ -21,11 +21,11 @@ int[] number = {100,200,300};
 try {
     
     System.out.println( number[5] );
-    System.out.println("Trye block, Checked exception");
+    System.out.println("Trye block, Checked exception_handling");
     
 } catch(ArrayIndexOutOfBoundsException e) {
     
-    System.out.println("catch block, unchecked exception");
+    System.out.println("catch block, unchecked exception_handling");
     
 }
 
@@ -36,10 +36,10 @@ System.out.println("===================================================");
 try {
     
     Thread.sleep(3000);
-    System.out.println("Trye block, Checked exception");
+    System.out.println("Trye block, Checked exception_handling");
     
 }catch(InterruptedException e) {
-    System.out.println("catch block, unchecked exception");
+    System.out.println("catch block, unchecked exception_handling");
 }
 
 
@@ -60,7 +60,7 @@ ArrayList<Integer> list =new ArrayList<Integer>();
         System.out.println("unchecked Exception occured in arraylist");
     }  
     
-    // parent exception class can handle child class' exceptions
+    // parent exception_handling class can handle child class' exceptions
 
     
     
@@ -92,7 +92,7 @@ ArrayList<Integer> list =new ArrayList<Integer>();
         System.out.println(nums[10]);
         
     }catch (Exception e) {
-        System.out.println("Checked exception");
+        System.out.println("Checked exception_handling");
     }
     
     

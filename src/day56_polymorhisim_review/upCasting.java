@@ -14,7 +14,7 @@ public class upCasting
 		obj1.method1();
 		
 		animal obj2=new animal();
-		//	dog obj3=(dog)obj2;		//it will throw exception downcasting not allowed
+		//	dog obj3=(dog)obj2;		//it will throw exception_handling downcasting not allowed
 		
 		
 	}
