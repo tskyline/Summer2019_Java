@@ -3,7 +3,8 @@ class customEx extends RuntimeException//custom unchecked exception class
 {
 	public customEx()
 	{
-		System.out.println("There is no break");
+		
+        System.err.println("There is no break till we get job done");
 	}
 }
 
@@ -12,7 +13,7 @@ class customUnEx extends Exception	//custom checked exception class
 {
 	public customUnEx()
 	{
-		super();
+		super("Too much breaks have occured in java course");
 		System.out.println("Time to stop");
 	}
 }
@@ -37,8 +38,7 @@ public class customException
 public class NoBreakTimeException extends RuntimeException{
     public NoBreakTimeException() {
         
-        super("Too much breaks have occured in java course");
-        System.err.println("There is no break till we get job done");
+        
     }
     
 }

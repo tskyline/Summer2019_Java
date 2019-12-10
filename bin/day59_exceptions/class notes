@@ -8,9 +8,7 @@ Topic: Exceptions Continue
             final vs finally
         Exceptions Interveiw Questions
 Package Name: day59_Exceptions
-Agenda:
-    Morning: Java
-    Afternoon: Selenium
+
 Multi- catch block:
         we can have multiple catch blocks with one try block
         CONDITION: parent exception type needs to be after it's sub exception type, otherwise code will be unreachable
@@ -36,7 +34,7 @@ Multi- catch block:
             }
         there will be exception thrown with the method.
         whoever calls the method , they must handle it
-        CALLER still has to deal with the exception, it's Caller' responsibility to handle the xception
+        CALLER still has to deal with the exception, it's Caller' responsibility to handle the exception
         method can throw more than one exception
             Ex: public void method() throws Interrupted, IOE ... { }
         MAINLY used for checked exception
@@ -46,4 +44,11 @@ throw keyword:  used for manually throw an exception
                 Ex: throw new RuntimException();
             after throwing an exception, any code we give will be unreachable
             when we throw checked exception, code will not compile, 
+            
+            Custom exception: we can create a class that extends exceptions to make it a custom exception class
+    how we create a custom unchecked exception?
+        create a class that extends runtimException  class
+    how we create a custom checked exception?
+        create a class that extends Exception class
+
             
